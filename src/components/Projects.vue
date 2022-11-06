@@ -9,7 +9,7 @@
                     <div class="flex-container">
                         <div class="flex-item-left">
                             
-                            <img src="https://i.postimg.cc/7hjKgMQH/Screenshot-2022-10-08-161156.png" alt="Protect" class="responsive-img">
+                            <img src="../img/Protect.png" alt="Protect" class="responsive-img">
                         </div>
 
                         <div class="flex-item-right">
@@ -23,7 +23,7 @@
                  
                     <div class="flex-container">
                         <div class="flex-item-left">
-                            <img src="https://i.postimg.cc/LsB4wxzW/Screenshot-2022-10-08-161432.png"  alt="Protect" class="responsive-img">
+                            <img src="../img/Porfolio.png"  alt="Protect" class="responsive-img">
                         </div>
 
                         <div class="flex-item-right">
@@ -31,6 +31,19 @@
                                 <h4>HTML, CSS, Vue.js </h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sed.</p>
                                 <a href="#"><button>View Project</button></a>
+                        </div>
+                    </div>
+
+                    <div class="flex-container">
+                        <div class="flex-item-left">
+                            <img src="../img/PhpCrud.png"  alt="PHP CRUD" class="responsive-img">
+                        </div>
+
+                        <div class="flex-item-right">
+                                <h1>PHP OOP CRUD FUNCTION</h1>
+                                <h4>PHP, CSS, JavaScript, Bootsrap</h4>
+                                <p>This project is my simple OOP with MVC model</p>
+                                <a href="https://github.com/Rayjan04/PHP-OOP-CRUD-FUNCTION"><button>View Project</button></a>
                         </div>
                     </div>
        
@@ -82,6 +95,7 @@ button{
 .flex-item-left{
     padding:10px;
     flex:50%;
+    border-style:ridge;
    
 }
 
@@ -94,6 +108,7 @@ button{
    padding:10px;
    text-align: right;
    right:50px; 
+   font-size: 25px;
 }
 
 .flex-item-right h4{
@@ -101,6 +116,7 @@ button{
     color: rgb(204, 168, 123);
     font-weight: 80;
     text-align: right ;
+    font-size: 20px;
 
 }
 .flex-item-right p{
