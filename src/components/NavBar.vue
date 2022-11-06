@@ -135,5 +135,11 @@ a.active,a:hover{
   #check:checked ~ ul{
     left :0;
   }
+  .Logo label{
+  /* logo design */
+  color: black;
+  line-height: 80px;
+  padding-left:0px;
+}
 }
 </style>
