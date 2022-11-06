@@ -1,6 +1,7 @@
 <template>
-    <div>
+    <div id="Home">
         <section>
+             <div class="divider">a</div>
             <div class="HomeContent">
                 <div class="Content">
                     <h3>Hi, my name is</h3>
@@ -18,13 +19,25 @@
 export default {
     name:'SectionM',
     components:{
-
+    
     }
+    
 }
+
 </script>
 
 <style scoped>
+.divider{
+ margin: auto;
+ margin-bottom:100px;
+ background: #333;
+ color: #333;
+ width: 80%;
+
+}
+
 *{
+    
     padding:0;
     margin:0;
     padding:0;
@@ -68,4 +81,7 @@ export default {
     border:none;
     cursor: pointer;
 }
+
+
+
 </style>

@@ -1,17 +1,17 @@
 <template>  
   <div class="NavContent">
     <nav> 
-      <div class="Logo">
+      <div class="Logo" >
         <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fa fa-bars"></i>
-        </label>
-        <label>MyLogo</label>
-        <ul>
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">Project</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+            <label for="check" class="checkbtn"  >
+              <i class="fa fa-bars" ></i>
+            </label>
+         <label> <img src="../img/Rj.jpg"  width="80px" height="80px"></label>
+        <ul > 
+          <li><a href="#Home" class="active">Home</a></li>
+          <li><a href="#Projects">Project</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -42,8 +42,12 @@ export default {
 .NavContent{
   /* setnavbar color and size */
   background:#ffff;
-  width: 80%;
+  width: 100%;
   margin: auto;
+  position: fixed;
+  
+  top:0;
+  
 
 }
 .Logo label{
@@ -84,10 +88,10 @@ a.active,a:hover{
   line-height:80px;
   margin-right:10px;
   cursor:pointer;
-  display: none;
+  display: none; 
 }
 #check{
-  display:none; 
+   display:none;  
 }
 
 /* Media Queries  for responsiveness */
@@ -103,7 +107,7 @@ a.active,a:hover{
 
 @media (max-width: 800px){
  .checkbtn{
-    display: block;
+    display: block; 
   }
     ul{
     position: fixed;
