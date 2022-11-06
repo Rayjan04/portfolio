@@ -62,4 +62,12 @@ export default {
     margin-bottom: 400px;
 }
 
+@media(max-width: 800px){
+    .divider{
+    width: 100%;
+    }
+    .Content{
+    width: 90%;
+    }
+}
 </style>

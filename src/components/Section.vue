@@ -82,6 +82,18 @@ export default {
     cursor: pointer;
 }
 
+@media (max-width: 800px) {
+    .HomeContent{
+        width:100%;
+    }
+    .Content p{
+        width: 100%;
+    }
+    .Content h1{
+    font-weight: bold;
+    font-size: 45px;
+    }
+}
 
 
 </style>

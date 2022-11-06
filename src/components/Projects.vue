@@ -140,5 +140,12 @@ button{
   .flex-container {
     flex-direction: column;
   }
+  .ProjectContent{
+    width: 100%;
+    margin:auto;
+}
+    .divider{
+    width: 100%;
+    }
 }
 </style>

@@ -55,7 +55,6 @@ export default {
     margin:auto;
     margin-bottom: 50px;
     padding: 10px;
-    margin-bottom: 400px;
 }
 
 h3{
@@ -109,5 +108,8 @@ article{
     max-width:400px;
     height: auto;
     }
+    .Content{
+    width: 100%;
+}
 }
 </style>
