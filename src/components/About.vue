@@ -15,7 +15,6 @@
                                 <img src="../img/html.png"  width="120px" height="120x">
                                 <img src="../img/css.png"   width="120px" height="120x">
                                 <img src="../img/js.png"    width="120px" height="120x">
-                                <img src="../img/node.jpg"  width="120px" height="120x">
                             </div>
                         
                             <div class="rows">
