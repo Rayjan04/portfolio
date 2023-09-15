@@ -19,7 +19,7 @@
                         
                             <div class="rows">
                                 <img src="../img/php.png"    width="120px" height="120x">
-                                <img src="../img/vscode.jpg" width="120px" height="120x">
+                                <img src="../img/vscode.jpg" width="120px" height="120x"> 
                             </div>
                         </div>
                 </div>
